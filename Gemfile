@@ -1,0 +1,8 @@
+gem 'rspec'
+gem 'httparty'
+gem 'rspec_api_test'
+gem 'selenium-webdriver'
+gem 'webdriver-user-agent'
+gem 'page-object'
+gem 'watir-webdriver'
+gem 'logger'
