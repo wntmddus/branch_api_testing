@@ -108,8 +108,9 @@ RSpec.describe HttpClient do
       l.password="Sksskdi1!"
       l.button
       driver1.get 'https://dashboard.branch.io/link-stats/' + actual_get["data"]["~id"]
-      sleep 5
+      sleep 500
       #if first trial
+      #should wait at least 15 mins to retrieve updated number
       expect(l.android_text).to include("1")
 
     end
